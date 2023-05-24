@@ -1,0 +1,33 @@
+Skills:
+1. Software testing theory
+2. Linux terminal
+3. GitBash
+4. GitHub
+5. DevTools
+6. SQL
+7. Postman
+8. Jmeter
+9. Fiddler
+10. Python
+[A[A[A[A[D[DSkills:
+1. Software testing theory
+2. Linux terminal
+3. GitBash
+4. GitHub
+5. DevTools
+6. SQL
+7. Postman
+8. Jmeter
+9. Fiddler
+10. Python
+[A[C[C[C[C[A[C[C[C[C[C[C[A[C[C[C[C[[C[C[C[C[C[[A[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[Skills:
+1. Software testing theory
+2. Linux terminal
+3. GitBash
+4. GitHub
+5. DevTools
+6. SQL
+7. Postman
+8. Jmeter
+9. Fiddler
+10. Python
