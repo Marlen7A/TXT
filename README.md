@@ -24,19 +24,15 @@
 - *`vim new.txt`*
 - *Insert*
  ```
-<?xml version="1.0"?>
-<person>
-  <fullname>Marlen Abliakimov</fullname>
-  <age>34</age>
-  <pets>
-  <dog>1</dog>
-  </pets>
-  <desiredSalary>5000$</desiredSalary>
-</person>
+:Full name: Marlen Abliakimov
+Age: 34
+Pets: 1 dog
+Desired Salary: 5000$
+
  ```
  - *Нажать __ESC__ ввести `:X`  __Enter__*
  ### __8. Отправить изменения на внешний репозиторий.__
-- *`git commit -am "new information added"`*
+- *`git commit -am "new information add"`*
 - *`git push`*
 ### __9. Создать файл preferences.txt.__
 - *`touch preferences.txt`*
@@ -44,32 +40,29 @@
 - *`vim preferences.txt`*
 - *Insert*
  ```
-<?xml version="1.0"?>
-<preferences>
-  <favoriteMovie>The Terminal</favoriteMovie>
-  <favoriteSeries>Suits</favoriteSeries>
-  <favoriteFood>pasta</favoriteFood>
-  <favoriteSeason>summer</favoriteSeason>
-  <countryIWouldLikeToVisit>Japan</countryIWouldLikeToVisit>
-</preferences>
+Favorite movie: The Terminal
+Favorite series: Suits
+Favorite food: Pasta
+Favorite season: Summer
+Country I would like visit: Japan
+
 ```
  - *Нажать __ESC__ ввести `:X`  __Enter__*
 ### __11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT.__
 - *`cat > skills.txt`*
 ```
-<?xml version="1.0"?>
-<skills>
-<skill>SoftwareTestingTheory</skill>
-<skill>LinuxTerminal</skill>
-<skill>GitBash</skill>
-<skill>GitHun</skill>
-<skill>DevTools</skill>
-<skill>SQL</skill>
-<skill>Postman</skill>
-<skill>Jmeter</skill>
-<skill>Fiddler</skill>
-<skill>Python</skill>
-</skills>
+Skills:
+1. Software testing theory
+2. Linux terminal
+3. GitBash
+4. GitHub
+5. DevTools
+6. SQL
+7. Postman
+8. Jmeter
+9. Fiddler
+10. Python
+
 ```
 - *__Enter__*
 - *__CTRL+C__*
@@ -84,28 +77,22 @@
 ### __15. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.__
 - *Открыть файл __bug_report.txt__ нажать на кнопку __Edid this file__ *
  ```
-<?xml version="1.0"?>
-<bugReport>
-<ID>123</ID>
-<Severity>Critical</Severity>
-<Priority>High</Priority>
-<Status>New</Status>
-<Title>Нажатие кнопки 'Контакты' на главной странице не перенаправляет на страницу Контакты</Title>
-<Project>Интернет-магазин 'Колесо'</Project>
-  <STR>
-     <step>1. Зайти на главную страницу сайта (ссылка сайта)</step>
-     <step>2. Нажать кнопку 'Контакты'</step>
-  </STR>
-    <Enviroment>
-      <OS>Windows 10 x64 build 19045.2965</OS>
-      <Browser>Google Chrome v113.0.5672.93 x64 bit</Browser>
-    </Enviroment>
- <Component>Кнопка 'Контакты'</Component>
- <ActualResult>Нажатие кнопки 'Контакты' не перенаправляет на страницу Контакты</ActualResult>
- <ExpectedResult>Нажатие кнопки 'Контакты' перенаправляет на страницу Контакты</ExpectedResult>
- <Attachments>Cсылка на картинку или видео с багом</Attachments>
- <Author>Марлен Аблякимов</Author>
- </bugReport>
+ID: 123
+Severity: Critical
+Priority: High
+Status: New
+Title: Нажатие кнопки 'Контакты' на главной странице не перенаправляет на страницу Контакты.
+Project: Интернет-магазин 'Колесо'.
+Step 1. Зайти на главную страницу сайта.
+Step 2. Нажать кнопку 'Контакты'.
+OS: Windows 10 x64 build 19045.2965
+Browser: Google Chrome v113.0.5672.93 x64 bit.
+Component: Кнопка 'Контакты'.
+Actual result: Нажатие кнопки 'Контакты' не перенаправляет на страницу Контакты.
+Expected result: Нажатие кнопки 'Контакты' перенаправляет на страницу Контакты.
+Attachments: Cсылка на картинку или видео с багом.
+Author: Марлен Аблякимов
+
 ```
 ### __16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.__
 -  *Нажать  __Commit changes.__*
